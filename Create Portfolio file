@@ -1,2 +1,133 @@
-+ print ("we are getting started")
-+ print ("Let's get this")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">O-Oladeji</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+
+            <h1>Oore Oladeji</h1>
+            <h3>Digital Marketing Excellence</h3>
+            <p>Transforming brands through strategic digital solutions</p>
+            <a href="#contact" class="cta-button">Let's Connect</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="date">Nov 2023 - Present</span>
+                    <h3>Senior Digital Marketing Specialist</h3>
+                    <h4>Aspire Coronation Trust Foundation</h4>
+                    <ul>
+                        <li>Led the development and execution of comprehensive digital marketing campaigns across Meta, Google, and TikTok, increasing user acquisition by 45% within 12 months.</li>
+            <li>Spearheaded the overall digitization of the organization.</li>
+            <li>Implemented advanced targeting and retargeting strategies that reduced CPA by 20% and increased conversion rates by 15%.</li>
+            <li>Conducted A/B testing on over 100 ad creatives, identifying top performers that led to a 25% increase in engagement.</li>
+            <li>Collaborated with cross-functional teams to align marketing efforts with product launches, resulting in a 40% increase in product adoption.</li>
+            <li>Analyzed campaign data to provide actionable insights, leading to a strategic pivot that captured a new user segment and contributed to a 35% increase in market share.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="timeline-item">
+    <div class="timeline-content">
+        <span class="date">Dec 2021 - Oct 2023</span>
+        <h3>Social Media Manager</h3>
+        <h4>Polad Multilinks</h4>
+        <ul>
+            <li>Managed and scaled paid search and social campaigns across Snapchat and Apple Search Ads, achieving a 50% increase in leads.</li>
+            <li>Designed and executed a landing page optimization strategy that lifted conversion rates by 18%.</li>
+            <li>Utilized Google Analytics to monitor campaign performance, driving a 10% decrease in bounce rates.</li>
+            <li>Orchestrated the creative testing process, enhancing ad performance and contributing to a 22% increase in CTR.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="timeline-item">
+    <div class="timeline-content">
+        <span class="date">April 2024 - Oct 2021</span>
+        <h3>Social Media Manager</h3>
+        <h4>West African Tobacco</h4>
+        <ul>
+            <li>Analyzed performance data across multiple digital channels, identifying trends that informed strategic decisions.</li>
+            <li>Supported the execution of campaigns that resulted in a 15% increase in user engagement.</li>
+            <li>Developed and maintained reporting dashboards for real-time performance tracking, enhancing team responsiveness.</li>
+            <li>Managed all social media pages and was in charge of content outlines and scheduling.</li>
+            <li>I utilize audience segmentation techniques to tailor communications, increasing relevance and engagement across multiple demographics.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="tools">
+        <h2>Tools & Expertise</h2>
+        <div class="tools-grid">
+            <div class="tool-item">
+                <i class="fas fa-hashtag"></i>
+                <h3>Social Media</h3>
+                <p>Strategic social media management and advertising</p>
+            </div>
+            <div class="tool-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Analytics</h3>
+                <p>Data-driven decision making and reporting</p>
+            </div>
+            <div class="tool-item">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Marketing</h3>
+                <p>Conversion-focused email campaigns</p>
+            </div>
+            <div class="tool-item">
+                <i class="fas fa-search"></i>
+                <h3>SEO</h3>
+                <p>Search engine optimization and content strategy</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Let's Work Together</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" required>
+                <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <textarea id="message" required></textarea>
+                <label for="message">Message</label>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 O-Oladeji. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
